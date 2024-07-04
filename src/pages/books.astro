@@ -1,0 +1,45 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Book from "../components/Book.astro";
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>水瓶</title>
+    <style>
+      body {
+        background-color: rgb(15, 16, 16);
+        color: white;
+        width: 800px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 3em;
+        margin: 1em 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <Navigation />
+    <h1>周运分析</h1>
+    <ul>
+      <Book
+        title="本周（最新）7.1-7.07"
+        body="水瓶座本周在各方面收到的支持都会比较多。本周水瓶座无论在事业、家庭、还是感情方面，都能感觉很和谐顺畅，你们周遭的一切都在有条不紊的进行中。学习方面，学习上的积极性和自觉性还是挺强的，愿意投入更多的时间精力和金钱，不会太懒散，如果在备战考试，建议多关注细节之处，遇到问题不要大而化之。工作方面，在合作关系方面可能会有所加强，需要和别人共同去承担一些事务，而非自己当一个独行大侠大包大揽。部分水瓶和领导的关系也会走得比较近，不排除会被领导特别关照从而给予你们一些机会资源。"
+        href="“https://bing.com"
+        img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+      />
+      <Book
+        title="上周6.24-6.30"
+        body="水瓶座本周可以加强一下自己生活里的主动性。本周水瓶在面对生活各个领域的情况时，可能更多的会是一种被接受的状态，事情来了就被动应对，而缺乏一些自己一定想要去实现什么的主动性。所以日常可以适当给自己一些合理的目标，或者是找找能调动起你们心底热情和积极性的梦想，用这些来激励自己。学习方面，本周水瓶座可能会对自己的学习目标和计划做一些更切实的调整，不会太过理想化。另外，在每天具体学习任务的执行上建议均衡用力，把目光放长远，不要逼自己太紧。工作方面，本周水瓶座在日常工作中上还是比较顺利的，各种任务的处理都会比较踏实细致，有些结果的实现需要更长久的时间。部分水瓶有外派培训或者出差的情况，另外也要留意职场口舌是非的问题。"
+        href="“https://bing.com"
+        img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+      />
+    </ul>
+    <Footer />
+  </body>
+</html>

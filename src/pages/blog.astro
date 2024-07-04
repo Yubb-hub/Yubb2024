@@ -1,0 +1,51 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Book from "../components/Book.astro";
+---
+
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>这里是白羊座页面</title>
+        <style>
+            body {
+                background-color: rgb(7, 7, 7);
+                color: white;
+                width: 800px;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 3em;
+                margin: 1em 0;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <Navigation />
+        <h1>2024运势</h1>
+        <ul>
+            <Book
+                title="水瓶座会在今年更加明确如何能够收获真正的快乐，并懂得如何取悦自己。"
+                body="你会在今年有不错的人际关系，在生活中容易遇到帮助你的贵人，同时在和身边朋友的交往过程中也容易有不错的人缘。上半年你可能会认识一些新的朋友，甚至是人脉资源，但同时在四月前后，你也可能会主动结束一些在你看来没有意义的关系，不再逼迫自己营业。6/7月份你需要重点注意身边挚友和家里人的关系，尽量保持同步的思维，不要产生意见上的重大分歧。"
+                href="“https://bing.com"
+                img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+            />
+            <Book
+                title="学习方面"
+                body="今年的水瓶座会在学习技能和获得资质证书上有比较不错的表现，你们有机会获得更多的外界认可，同时取得一些在努力过后的成就。不过今年水瓶座需要在一些语言类的考试上加把劲，容易在备考过程中出现三心二意，走马观花的问题。尤其是在下半年的8、9月份，有面试的水瓶座需要好好调整状态，避免由于自己的大意出现一些失误。"
+                href="“https://bing.com"
+                img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+            />
+            <Book
+            title="工作方面"
+            body="今年的水瓶座有机会在事业高度上迎来过去的新高，尤其在春天吧，你可能会在工作场景中担任更加很重要的角色，甚至迎来升职。"
+            href="“https://bing.com"
+            img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+        />
+        </ul>
+        <Footer />
+    </body>
+</html>

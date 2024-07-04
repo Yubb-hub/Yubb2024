@@ -1,0 +1,45 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Book from "../components/Book.astro";
+---
+
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>这里是白羊座页面</title>
+        <style>
+            body {
+                background-color: rgb(0, 14, 14);
+                color: white;
+                width: 800px;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 3em;
+                margin: 1em 0;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <Navigation />
+        <h1>恋爱分析</h1>
+        <ul>
+            <Book
+                title="灵魂契合"
+                body="对于水瓶座，很多人都觉得这是最不容易在感情中吃亏的一群人，其实不然。水瓶座的心动始于灵魂共振的感觉，他们一般不轻易表达自己的情感，但一旦认定了对方，就会以自己的方式不顾一切地付出。但水瓶座往往对自己的感情不太善于表达，他们的爱较为抽象，也因此常常会被对方忽视，让对方感到不满或失望。"
+                href="“https://bing.com"
+                img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+            />
+            <Book
+                title="希望被理解"
+                body="水瓶的感受很简单：有些心里的声音，说出来有人当回事听听，就不足够委屈了。但有些水瓶在关系里，容易隐藏自己的真实想法，结果就是前期一味迁就，最后自己受不了干脆直接躲起来给人家玩断崖式。和水瓶产生矛盾分歧了，不要把问题放大真的搞大阵仗吵架，千万别让事件上升到某种逻辑思维的对决，那样的话水瓶可就“鲨”疯了，他们会把它当成一场辩论赛来打，这个时候，就算绞尽脑汁，用尽办法也要赢了你。如果实在没有办法，你就是爱上了一个水瓶座，他让你头疼痛苦愤怒又莫名的不可代替，一定要学会做感情的“主导人”。因为水瓶在亲密关系里，需要绝对性的带领，水瓶佛系，喜欢顺其自然，但是他们希望对方有明确的目的，这样水瓶可以根据对方的目的来调整自己。水瓶永远不会主动地把一段感情定位和落地，他们喜欢对方给出方向，然后他将一段关系从无形调整至有形。和水瓶相处记住几点：别搞对立，别太挑剔，别隐藏真心，别漫无目的。"
+                href="“https://bing.com"
+                img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+            />
+        </ul>
+        <Footer />
+    </body>
+</html>

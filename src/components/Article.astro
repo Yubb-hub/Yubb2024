@@ -1,0 +1,21 @@
+---
+let{title="文章标题",content="文章内容"}=Astro.props;
+---
+<div>
+<h1>{title}</h1>
+<p>{content}</p>
+<slot>
+</div>
+<style>
+    body {
+      background-color: rgb(255, 255, 255);
+      color: rgb(140, 246, 246);
+      width: 800px;
+      margin: 0 0 0 auto;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin: 1.3em 0;
+      text-align: center;
+    }
+</style>

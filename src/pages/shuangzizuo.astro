@@ -1,0 +1,45 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Book from "../components/Book.astro";
+---
+
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>性格</title>
+        <style>
+            body {
+                background-color: rgb(4, 4, 4);
+                color: white;
+                width: 800px;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 3em;
+                margin: 1em 0;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <Navigation />
+        <h1>性格分析</h1>
+        <ul>
+            <Book
+                title="引导者"
+                body="水瓶座一旦认准一件事或者一个道理，那么在此之前，他已经思考了很久，并且这件事他那应该早就是属于逻辑自洽了，他们往往会觉得，只要你也跟着他这么做，大概率不会掉队，就能一直保持在同样的水平上齐头并进。只是有时候水瓶太过超前的理念和想法，难免太过于冒险，周围人其实很难在当下的处境里搞明白这样做的理由。而水瓶的坚持，则会让周围人感到压力，就好像在被push，尽管水平的出发点是好的。其实爱思考、对风向敏感、看问题深且长远这些是水瓶们天然的优势，但入股希望人人都能做到，其实反而会让自己的善意受到误解。"
+                href="“https://bing.com"
+                img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+            />
+            <Book
+                title="做自己的强者"
+                body="水瓶座之所以能够做自己，是因为对人生有完全的掌控。他们不追求外界的认可，也不喜欢刻意的融入，仿佛在这个喧嚣的世界里，他们自成一格，活在自己的节奏中，享受着属于自己的世界。但看似疏离的水瓶座，他们的内心其实充满了对自我和生活的热爱与执着。他们渴望成为自己人生的主宰，不愿被他人左右，这种隐性的掌控欲与他们“淡人”的形象形成强烈的反差。在感情的世界里，水瓶座往往不轻易陷入情绪的漩涡，有时候你会发现他们好像一个“空心人”。这种疏离感并非冷漠，而是源于他们内心的一个坚定信念：没有任何一个人是无可替代的，只有自己才是自己人生的主人。"
+                href="“https://bing.com"
+                img="https://th.bing.com/th/id/OIP.tJzAoFQsxfxGkzLqapSSIwHaLZ?rs=1&pid=ImgDetMain"
+            />
+        </ul>
+        <Footer />
+    </body>
+</html>
